@@ -1,0 +1,173 @@
+/* The top section*/
+.top-section{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 25px 130px 30px 30px;
+
+    justify-content: left;
+    align-items: left;
+
+
+    background-color: #90D5FF;
+    background-attachment: fixed;
+
+    border-bottom: 1px solid #aaa;
+    border-style: solid;
+    border-color: #bbbbbb;
+    border-width: 3px;
+    font-size: 1rem;
+
+}
+
+.top-section a{
+    text-decoration:none;
+    color:#003366;
+}
+
+.top-section a:hover, .top-section a:focus {
+  text-decoration: underline;
+}
+
+
+/* selfies-status-section */
+.selfies-status-section{
+    display: block;
+    text-align: center;
+}
+
+.selfie-wrapper {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 0.05rem;
+}
+
+.selfie {
+    width: 12rem;
+    height: 14rem;
+    border-radius: 30px;
+}
+
+.description-of-pic{
+    margin-top:0;
+    font-size: 15px;
+}
+
+.greeting{
+    font-size: 20px;
+    text-align: center;
+}
+
+.greeting h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 1px;
+}
+
+.status{
+    display: inline-block;      
+    background-color: maroon;
+    color: white;
+    padding: 1% 3%;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+/* The content */
+.the-real-deal{
+    margin: 0 10%;
+}
+
+.the-real-deal a:hover, .the-real-deal a:focus {
+    text-decoration: underline;
+}
+
+.the-real-deal a{
+    font-weight:700;
+    color:#0033cc;
+    text-decoration:none;
+}
+
+.about{
+    margin-top:2rem;
+    border-top:2px solid gray;
+    font-size: 20px;
+}
+
+.about h1{
+    margin-bottom: 0.5rem;
+}
+  
+.about p{
+    margin-top: 0.25rem;
+    font-size: 18px;
+}
+
+.projects{
+    margin-top:2rem;
+    border-top:2px solid gray;
+    font-size: 20px;
+}
+
+.projects h1{
+    margin-bottom: 0.5rem;
+}
+  
+.projects p{
+    margin-bottom: 2rem;
+    margin-top: 0.25rem;
+    font-size: 18px;
+}
+
+.project-list{
+    margin-left: 5rem;
+    font-size: 18px;
+}
+
+.contact{
+    margin-top:2rem;
+    border-top:2px solid gray;
+    border-bottom:2px solid gray;
+    font-size: 20px;
+}
+
+.contact h1{
+    margin-bottom: 0.5rem;
+}
+  
+.contact p{
+    margin-top: 0.25rem;
+    margin-bottom: 2.5rem;
+    font-size: 18px;
+}
+
+.about,
+.projects,
+.contact{
+  padding: 20vh 0;
+}
+
+
+/* Foot notes*/
+.bottom-section{
+    margin: 0 10%;
+}
+
+.footer{
+    font-size: 18px;
+}
+
+.meme-wrapper p{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.meme{
+    width:30rem;
+    height: 19rem;    
+    display: flex;
+    border-radius: 30px;
+}
+
